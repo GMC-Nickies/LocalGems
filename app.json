@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "MealsToGo",
-    "slug": "MealsToGo",
+    "name": "Local Gems",
+    "slug": "LocalGems",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.gmcnickies.LocalGems"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e1642bba-bec6-4d51-be4b-b9607aa3d3af"
+      }
     }
   }
 }
